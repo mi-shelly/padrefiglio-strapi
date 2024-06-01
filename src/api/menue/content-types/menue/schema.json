@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "menues",
+  "info": {
+    "singularName": "menue",
+    "pluralName": "menues",
+    "displayName": "Menü"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Speisekarte": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
